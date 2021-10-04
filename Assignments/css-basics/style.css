@@ -1,0 +1,75 @@
+
+body {
+    /*max-width: 40rem;*/
+    margin: 0;
+    text-align: center;
+    font-family: 'Gemunu Libre', sans-serif;
+
+    background: rgb(20, 20, 20);
+    color: rgb(240, 240, 240);
+}
+header {
+    text-align: center;
+    background: rgb(40, 40, 40);
+    padding: 1rem 0rem 1rem;
+    margin: 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    font-weight: 400;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: rgb(78, 223, 97);
+    line-height: 2em;
+    font-size: 1rem;
+
+}
+
+nav a:hover {
+    color: rgb(192, 109, 218)
+}
+
+main {
+    /*background: lightgrey;*/
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: .5rem;
+}
+
+img {
+    width: 100%;
+    /*max-width: 30rem;*/
+    margin: 0 auto;
+    display: block;
+}
+
+section {
+    margin: 3rem 0;
+    border-left: .5rem solid rgb(240, 240, 240);
+}
+
+section h3 {
+    background: rgb(40, 40, 40);
+    margin: 0;
+    padding: .5rem;
+}
+
+section p {
+    background: rgb(60, 60, 60);
+    margin: 0;
+    padding: .5rem;
+}
+
+footer {
+    background: rgb(50, 50, 50)
+}
+
+footer p {
+    margin: 0;
+}
