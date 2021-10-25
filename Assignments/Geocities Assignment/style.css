@@ -1,0 +1,73 @@
+body{
+
+    background-image: url(https://cutewallpaper.org/21/anime-town-background/Download-2560x1600-Anime-Street-Scenic-Sunset-Buildings-.jpeg);
+    background-size: cover;
+}
+
+header h1{
+    font-family: 'Gemunu Libre', sans-serif;
+    text-align: center;
+    color: pink
+}
+
+.cherryBlossoms img{
+    height: 61.1em;
+    width: 120em;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+}
+.Kuma-Rin img{
+    position: absolute;
+    right: 27rem;
+    bottom: 0rem;
+    width: 250px;
+}
+
+.panda img{
+    position: absolute;
+    right: 18rem;
+    top: 36.5rem;
+    max-width: 50px;
+}
+
+.panda_chair img{
+    position: absolute;
+    top: 45.4rem;
+    left: 54.4rem;
+    width: 22px;
+}
+
+.panda:hover{
+    position: fixed;
+    width: 50px;
+    height: 60px;
+    right: 17.5rem;
+    top: 36rem;
+    cursor:help
+}
+
+.pandadance img{
+    position: fixed;
+    height: 150px;
+    top: 31.8rem;
+}
+
+.vroidLogo img{
+    position: fixed;
+    height: 120px;
+    top: 5rem;
+    right: 5rem;
+}
+
+.commision {
+    position: fixed;
+    top: 13rem;
+    right: 5.5rem;
+    font-size: 20px;
+    font-family: 'Bebas Neue', 'sans serif';
+}
+
+p{
+    text-align: center;
+}
