@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    background: rgb(41, 41, 41);
+    align-items: center;
+    justify-items: center;
+}
+
+
+.bar {
+    height: 25px;
+    width: 5px;
+    background: black;
+    margin: .5em 0;
+    transform: scale(0, 1);
+    transform-origin: bottom left;
+    animation: grow 1.5s infinite alternate;
+    }
+
+.a {
+    animation-delay: 0s;
+}
+.b {
+    animation-delay: .5s;
+}
+.c {
+    animation-delay: 1s;
+}
+
+.animation{
+    transform: rotate(-90deg);
+}
+    
+@keyframes grow {
+    from {
+        transform:  scale(0,1);
+    }
+
+    to {
+        transform: scale(10, 1);
+    }
+}
